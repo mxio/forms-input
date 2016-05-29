@@ -1,0 +1,36 @@
+.container {
+	width: 20%;
+	padding-top: 50px;
+}
+
+input {
+	border: 1px solid grey;
+}
+
+.search {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+select {
+	border: 1px solid grey;
+	margin-top: 3px;
+	width: 78%;
+}
+
+.submit {
+	background-color: #FE5658;
+	border: none;
+	padding: 1px 5px;
+	margin-left: -5px;
+	color: #fff;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+@supports (-webkit-appearance:none) {
+    .submit {
+        padding: 2.27px 5px;
+        padding-bottom: 2.2px;
+    }
+}  

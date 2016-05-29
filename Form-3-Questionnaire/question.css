@@ -1,0 +1,31 @@
+
+.container {
+	width: 40%;
+	margin: auto;
+	margin-top: 75px;
+}
+
+input {
+	padding: 5px 0;
+	color: #13343B;
+	border: 1px solid #13343B;
+}
+
+.text {
+	margin-left: 25px;
+}
+
+.submit {
+	display: inline-block;
+	float: left;
+	padding: 10px 5px;
+	background-color: #FF534B;
+	color: #fff;
+	border: none;
+	margin-top: 15px;
+}
+
+h1 {
+	font-family: sans-serif;
+	color: #0DABCF;
+}
